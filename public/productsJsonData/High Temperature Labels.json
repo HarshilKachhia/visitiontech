@@ -1,0 +1,88 @@
+{
+  "page": "High Temperature Resistance Labels",
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "sections": [
+        {
+          "title": "High Temperature Labels",
+          "content": "Our high temperature labels are specifically designed for the most demanding environments where standard labels would curl, discolor, or fail. Engineered to operate at sustained heat up to **+300°C (+572°F)**, these labels are essential for printed circuit board (PCB) manufacturing, semiconductor processing, and aerospace engineering. Using high-performance materials like polyimides and specialized polyesters, these labels are as durable as the products they identify, surviving through reflow soldering, wave soldering, and harsh chemical cleaning processes. They are also resistant to many corrosive industrial solvents and UV radiation, ensuring total traceability throughout the product lifecycle."
+        }
+      ],
+      "features": [
+        "Withstands extreme heat up to +300°C.",
+        "Resistant to harsh chemicals and cleaning solvents.",
+        "Excellent dimension stability at elevated temperatures.",
+        "High-definition barcode and alphanumeric printing.",
+        "Flame retardant and UV resistant properties.",
+        "Available in ultra-thin versions for micro-circuits."
+      ],
+      "clients": [
+        "Electronics & PCB Manufacturers",
+        "Aerospace & Automotive Engineering",
+        "Semiconductor Fabrication",
+        "Heat-Treatment Industrial Facilities"
+      ],
+      "trends": [
+        "Miniaturization of labels to track micro-components and individual chips.",
+        "Shift towards lead-free (RoHS compliant) thermal resistant materials.",
+        "Increased use in automotive EV battery thermal management systems.",
+        "Combination of heat resistance with ESD (Electrostatic Discharge) shielding."
+      ]
+    },
+    {
+      "tabName": "Label Options",
+      "labelMaterials": {
+        "paperTypes": [
+          "Not applicable (Films only)"
+        ],
+        "filmTypes": [
+          "Polyimide (Kapton type)",
+          "High-temp PET (Polyester)",
+          "Aluminium Foil Labels",
+          "Specialty PEEK film"
+        ]
+      },
+      "labelFinishes": [
+        "Gloss White",
+        "Matte White",
+        "Metallic",
+        "Tan/Amber Polyimide"
+      ],
+      "adhesives": [
+        "High-Temp Permanent Acrylic",
+        "Silicone-based Adhesive",
+        "ESD-safe Adhesive",
+        "Flame-retardant Adhesive"
+      ],
+      "formats": [
+        "Roll Form for auto-apply",
+        "Small Individual labels",
+        "Individually Cut"
+      ]
+    },
+    {
+      "tabName": "Printing Options",
+      "printingTypes": [
+        "Thermal Transfer (Super-Resin)",
+        "Laser Component Marking",
+        "UV Inkjet Printing",
+        "High-Durability Screen Printing"
+      ],
+      "printingDescriptions": [
+        {
+          "key": "superResin",
+          "desc": "Uses specialized resin ribbons that cross-link with the label's surface under heat, providing a print that cannot be removed even with harsh industrial scrubbers or chemicals."
+        },
+        {
+          "key": "polyimide",
+          "desc": "A material specifically designed for the soldering process, ensuring the label never turns brown or falls off during high-heat exposure."
+        },
+        {
+          "key": "esdSafe",
+          "desc": "Labels designed to have low static charge during peeling and application, preventing damage to sensitive electronic components."
+        }
+      ]
+    }
+  ]
+}

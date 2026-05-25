@@ -1,0 +1,92 @@
+{
+  "page": "Thermal Labeling Solutions",
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "sections": [
+        {
+          "title": "Thermal Labels",
+          "content": "Our thermal label solutions cater to specialized applications where heat is used to create sharp, long-lasting images. These labels are essential for high-speed variable data printing, such as barcodes, weight information, and shipping details. We offer two primary types of thermal labels: **Direct Thermal**, which requires no ribbon, and **Thermal Transfer**, which uses wax, resin, or wax-resin ribbons depending on the level of durability needed. Our thermal labels are engineered to ensure high-speed compatibility and smudge resistance across diverse surface types."
+        }
+      ],
+      "features": [
+        "Highly compatible with industrial and desktop thermal printers.",
+        "Smudge and moisture-resistant for long-term readability.",
+        "Available in BPA-free (phenol-free) coatings for consumer safety.",
+        "Both Direct Thermal and Thermal Transfer options.",
+        "Versatile application on diverse surfaces including synthetic films.",
+        "Quick-dry and sharp-print quality for efficient barcode scanning."
+      ],
+      "clients": [
+        "Logistics & E-commerce",
+        "Retail & Supermarkets",
+        "Pharmaceutical Distribution",
+        "Manufacturing & Inventory"
+      ],
+      "trends": [
+        "Rising demand for phenol-free (BPA/BPS-free) thermal paper options.",
+        "Transition toward sustainable, eco-friendly adhesive systems.",
+        "Integration of linerless thermal labels to reduce material waste.",
+        "High-sensitivity coatings for energy-efficient printing at high speeds."
+      ]
+    },
+    {
+      "tabName": "Label Options",
+      "labelMaterials": {
+        "paperTypes": [
+          "Direct Thermal Paper",
+          "Thermal Transfer Paper",
+          "Semi-Gloss Chromo",
+          "BPA-free Thermal paper"
+        ],
+        "filmTypes": [
+          "Synthetic Thermal Film",
+          "Thermal PET",
+          "Thermal PE",
+          "Thermal BOPP"
+        ]
+      },
+      "labelFinishes": [
+        "Satin Matte",
+        "Glossy",
+        "Uncoated",
+        "Varnished"
+      ],
+      "adhesives": [
+        "Permanent Acrylic",
+        "Removable",
+        "Freezer Grade",
+        "High-Tack"
+      ],
+      "formats": [
+        "Roll Form",
+        "Fan-fold Form",
+        "Linerless Rolls"
+      ]
+    },
+    {
+      "tabName": "Printing Options",
+      "printingTypes": [
+        "Direct Thermal",
+        "Thermal Transfer (Wax/Resin)",
+        "Flood Coating (Colors)",
+        "Pre-printed Logos",
+        "Barcoding"
+      ],
+      "printingDescriptions": [
+        {
+          "key": "directThermal",
+          "desc": "Uses a heat-sensitive coating on the label stock itself to create images without the need for an ink ribbon. Ideal for short-term labeling and logistics."
+        },
+        {
+          "key": "thermalTransfer",
+          "desc": "A process that uses heat to transfer ink from a ribbon onto the label. Offers superior durability and resistance to chemicals, moisture, and extreme environments."
+        },
+        {
+          "key": "resinRibbon",
+          "desc": "Provides the highest level of abrasion and chemical resistance for industrial-grade synthetic labels."
+        }
+      ]
+    }
+  ]
+}

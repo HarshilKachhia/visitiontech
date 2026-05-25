@@ -1,0 +1,74 @@
+[
+  {
+    "category": "Industry Wise Labels",
+    "slug": "industry-wise-labels",
+    "items": [
+      {
+        "name": "Pharmaceutical",
+        "slug": "pharmaceutical"
+      },
+      {
+        "name": "Cosmetic and Healthcare",
+        "slug": "cosmetic-and-healthcare"
+      },
+      {
+        "name": "Food & Beverages",
+        "slug": "food-and-beverages"
+      },
+      {
+        "name": "Wine & Liquor",
+        "slug": "wine-and-liquor"
+      },
+      {
+        "name": "Chemical & Lubricants",
+        "slug": "chemical-and-lubricants"
+      },
+      {
+        "name": "Consumer Electronics Labels",
+        "slug": "consumer-electronics-labels"
+      },
+      {
+        "name": "Automotive Labels",
+        "slug": "automotive-labels"
+      },
+      {
+        "name": "Garment Labels",
+        "slug": "garment-labels"
+      }
+    ]
+  },
+  {
+    "category": "Specialty Labels",
+    "slug": "specialty-labels",
+    "items": [
+      {
+        "name": "Hologram Labels",
+        "slug": "hologram-labels"
+      },
+      {
+        "name": "Thermal Labels",
+        "slug": "thermal-labels"
+      },
+      {
+        "name": "Transparent Labels",
+        "slug": "transparent-labels"
+      },
+      {
+        "name": "Frozen Proof Labels",
+        "slug": "frozen-proof-labels"
+      },
+      {
+        "name": "High Temperature Labels",
+        "slug": "high-temperature-labels"
+      },
+      {
+        "name": "Sandwich (Piggyback) Labels",
+        "slug": "sandwich-piggyback-labels"
+      },
+      {
+        "name": "Void Labels",
+        "slug": "void-labels"
+      }
+    ]
+  }
+]

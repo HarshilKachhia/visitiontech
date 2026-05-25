@@ -1,0 +1,91 @@
+{
+  "page": "Frozen Proof & Cold Storage Labels",
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "sections": [
+        {
+          "title": "Frozen Proof Labels",
+          "content": "Our frozen proof labels are engineered to withstand the extreme challenges of cold storage and deep-freezing environments. Designed to maintain a permanent bond at temperatures ranging from **-40°C to +115°C**, these labels are ideal for the pharmaceutical and food industries. Whether it's for vaccine bottles, blood bags, or frozen food products, our labels are moisture and UV resistant, ensuring critical information stays legible and the label remains securely attached even when moisture condensates during the thawing process. For best results, labels should be applied to a dry, clean surface before freezing."
+        }
+      ],
+      "features": [
+        "Reliable performance from -40°C to +115°C.",
+        "Moisture, condensation, and UV resistant coatings.",
+        "Deep-freeze permanent adhesive systems.",
+        "Ideal for pharmaceutical cold-chain and vaccine labeling.",
+        "Smudge-proof printing for critical patient/product identification.",
+        "High-performance synthetic films for superior durability."
+      ],
+      "clients": [
+        "Pharmaceutical Cold-Chain Logistics",
+        "Hospitals & Blood Banks",
+        "Frozen Food Manufacturers",
+        "Industrial Cold Storage Facilities"
+      ],
+      "trends": [
+        "Increasing demand for labels used in vaccine cold-chain management.",
+        "Development of cryo-labels that can be applied directly to frozen surfaces.",
+        "Integration of thermal dyes that change color if a specific temperature limit is exceeded.",
+        "Sustainability shift towards recyclability even in cold-storage environments."
+      ]
+    },
+    {
+      "tabName": "Label Options",
+      "labelMaterials": {
+        "paperTypes": [
+          "Frozen-grade Semi-Gloss",
+          "Deep-freeze Thermal paper",
+          "Water-resistant Uncoated paper"
+        ],
+        "filmTypes": [
+          "PE (Polyethylene) - flexible",
+          "BOPP (Polypropylene)",
+          "PET (Polyester) - rigid",
+          "Synthetic Cryo-film"
+        ]
+      },
+      "labelFinishes": [
+        "Matte",
+        "Glossy",
+        "UV Varnish",
+        "Laminated for extra protection"
+      ],
+      "adhesives": [
+        "Cryogenic Adhesive",
+        "Deep Freeze Permanent",
+        "Moisture-tack Adhesive",
+        "Removable Cold-storage"
+      ],
+      "formats": [
+        "Roll Form",
+        "Sheet Form",
+        "Individually Cut"
+      ]
+    },
+    {
+      "tabName": "Printing Options",
+      "printingTypes": [
+        "Thermal Transfer (Resin)",
+        "Flexographic Printing",
+        "UV Ink Printing",
+        "Barcoding & Serial Numbering",
+        "Lamination"
+      ],
+      "printingDescriptions": [
+        {
+          "key": "resinPrinting",
+          "desc": "Uses highly durable resin ribbons to ensure barcodes and text do not smudge or wear off even in heavy condensation conditions."
+        },
+        {
+          "key": "cryoAdhesive",
+          "desc": "A specialized adhesive that creates a permanent bond at room temperature but becomes extremely rigid and locked-in when frozen to sub-zero temperatures."
+        },
+        {
+          "key": "bloodBagSpecialty",
+          "desc": "Meets specific medical industry standards for secondary labeling on blood bags and medical equipment."
+        }
+      ]
+    }
+  ]
+}

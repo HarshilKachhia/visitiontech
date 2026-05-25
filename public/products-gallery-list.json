@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Pharmaceutical",
+    "navigationLink": "/product/pharmaceutical",
+    "imagePath": "/imgs/products/pharmaceutical/img1.jpg"
+  },
+  {
+    "name": "Cosmetic and Healthcare",
+    "navigationLink": "/product/cosmetic-and-healthcare",
+    "imagePath": "/imgs/products/cosmetic-healthcare/img1.jpg"
+  },
+  {
+    "name": "Food & Beverages",
+    "navigationLink": "/product/food-and-beverages",
+    "imagePath": "/imgs/products/food-beverages/img1.jpg"
+  },
+  {
+    "name": "Wine & Liquor",
+    "navigationLink": "/product/wine-and-liquor",
+    "imagePath": "/imgs/products/wine-liquor/img1.jpg"
+  },
+  {
+    "name": "Chemical & Lubricants",
+    "navigationLink": "/product/chemical-and-lubricants",
+    "imagePath": "/imgs/products/chemical-lubricants/img1.jpg"
+  },
+  {
+    "name": "Consumer Electronics Labels",
+    "navigationLink": "/product/consumer-electronics-labels",
+    "imagePath": "/imgs/products/consumer-electronics/img1.jpg"
+  },
+  {
+    "name": "Automotive Labels",
+    "navigationLink": "/product/automotive-labels",
+    "imagePath": "/imgs/products/automotive/img1.jpg"
+  },
+  {
+    "name": "Garment Labels",
+    "navigationLink": "/product/garment-labels",
+    "imagePath": "/imgs/products/garment/img1.jpg"
+  },
+  {
+    "name": "Hologram Labels",
+    "navigationLink": "/product/hologram-labels",
+    "imagePath": "/imgs/products/hologram/img1.jpg"
+  },
+  {
+    "name": "Thermal Labels",
+    "navigationLink": "/product/thermal-labels",
+    "imagePath": "/imgs/products/thermal/img1.jpg"
+  },
+  {
+    "name": "Transparent Labels",
+    "navigationLink": "/product/transparent-labels",
+    "imagePath": "/imgs/products/transparent/img1.jpg"
+  },
+  {
+    "name": "Frozen Proof Labels",
+    "navigationLink": "/product/frozen-proof-labels",
+    "imagePath": "/imgs/products/frozen-proof/img1.jpg"
+  },
+  {
+    "name": "High Temperature Labels",
+    "navigationLink": "/product/high-temperature-labels",
+    "imagePath": "/imgs/products/high-temperature/img1.jpg"
+  },
+  {
+    "name": "Sandwich (Piggyback) Labels",
+    "navigationLink": "/product/sandwich-piggyback-labels",
+    "imagePath": "/imgs/products/sandwich-piggyback/img1.jpg"
+  },
+  {
+    "name": "Void Labels",
+    "navigationLink": "/product/void-labels",
+    "imagePath": "/imgs/products/void/img1.jpg"
+  }
+]

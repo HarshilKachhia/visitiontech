@@ -1,0 +1,128 @@
+{
+  "page": "Automobile Labels",
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "sections": [
+        {
+          "title": "Automotive Labels",
+          "content": "JK Labels one of the foremost automotive label manufacturers in India. We are ISO 9001, 14001 and OHSAS 18001 approved self-adhesive labels manufacturer based in Mumbai. As one of the leading custom self adhesive labels printers in India, we have been doing sticker printing jobs for several top auto companies in india and abroad. The automotive labels are classified as weatherproof, oil resistant and for Batteries. All cars require numerous extreme performance, long-lasting automotive labels with inbuilt security features since duplication of car parts is on a rise. We provide security labels like security inks, holograms, numbering and security face stocks as anti counterfeit solutions. These printed labels can withstand temperature variations and different environmental conditions. The self adhesive labels we usually have very strong gumming and strong face surface resulting in weather proof and car fluid resistant pressure sensitive labels. These weather proof labels are manufactured using the best label printing technology (flexographic label printing). The custom automotive labels / synthetic labels are manufactured to meet customer specifications and requirements. We have been manufacturing and printing, automotive labels for Automobile / Automobile ancillary companies for several years including: Bajaj Auto Ltd., Mahindra and Mahindra, Ceat Radials, Fiat India. Automotive Labels are used in the automotive and automotive ancillaries industry mainly for:"
+        }
+      ],
+      "features": [
+        "Serial numbering.",
+        "Labeling of batteries and tyres.",
+        "Glasses and wind shield labeling.",
+        "Air bag and seat labels.",
+        "Under bonnet stickers."
+      ],
+      "clients": [
+        "Bajaj Auto Ltd.",
+        "Mahindra and Mahindra",
+        "Ceat Radials",
+        "Fiat India"
+      ],
+      "trends": [
+        "PP labels, PVC labels, PE labels.",
+        "Security labels using Holographic adhesive labels printing.",
+        "UV Varnished printed labels in roll form.",
+        "Sticker printing using Security inks like thermo chromic inks.",
+        "Custom automotive labels."
+      ]
+    },
+    {
+      "tabName": "Label Options",
+      "labelMaterials": {
+        "paperTypes": [
+          "Paper",
+          "Chromo",
+          "Map Litho",
+          "Mirror Coated",
+          "Coloured Papers",
+          "Thermal Transfer"
+        ],
+        "filmTypes": [
+          "Films (opaque or transparent)",
+          "Poly Propylene",
+          "Poly Ethylene",
+          "Polyester (PET)",
+          "PVC"
+        ],
+        "metallizedFoils": [
+          "Metallized Foils"
+        ]
+      },
+      "labelFinishes": [
+        "Matt",
+        "Semi Glossy",
+        "Glossy"
+      ],
+      "adhesives": [
+        "Hot Melt",
+        "Water Based"
+      ],
+      "formats": [
+        "Sheet",
+        "Roll",
+        "Continuous Stationery"
+      ]
+    },
+    {
+      "tabName": "Printing Options",
+      "printingTypes": [
+        "Lamination",
+        "Half Tone Effect / Gradient Effect",
+        "Bar Coding",
+        "Holograms",
+        "Hot / Cold Foil",
+        "Embossing",
+        "Varnishing",
+        "Serial Numbering",
+        "Screen Printing",
+        "Security / Specialty Ink"
+      ],
+      "printingDescriptions": [
+        {
+          "key": "lamination",
+          "desc": "In this process, a clear film is applied to the label material, giving it a polished appearance. Lamination is mostly done to protect the label, and the label is rendered moisture-resistant and practically tear-proof, thus increasing the life of the label. Lamination also enhances the label's visual appeal."
+        },
+        {
+          "key": "varnishing",
+          "desc": "Varnishing refers to the process of applying a heat cured clear coating of transparent ink on the surface of a label for protection and for giving a lustrous look. The labels with a varnishing enhancement protect the material and the printing from abrasion, sunlight, chemicals and moisture."
+        },
+        {
+          "key": "serialNumbering",
+          "desc": "Labeling with unique serial numbers is required in various industries, such as retail and logistics, as well as for several purposes, such as identifying spare parts and individual units of goods and products."
+        },
+        {
+          "key": "hotColdFoil",
+          "desc": "This is a special image producing method in which a thin foil with the label design is transferred on to the required surface. This results in an eye-catching product, because of the metallic sheen of the foil. Popular foils used are gold and metallic, but several colours and finishes are available at JK Labels. Hot/Cold foil can be done on any surface, and is the perfect enhancement if you want your product to appear exquisite. JK Labels lets you choose what you want to include in the hot stamp: logo, text or design."
+        },
+        {
+          "key": "embossing",
+          "desc": "Embossing is a condition where an image is pressed onto a material to create an image that is raised above the level of the material. Embossing is not only a cost-effective option, especially for low volumes, but also adds a dash of class to your product. It is also easy to detect any tampering of embossed labels, thus discouraging counterfeiting. We ensure that our labels are last-long, and are available to customers in the shape, pattern, size and colour they require."
+        },
+        {
+          "key": "barCoding",
+          "desc": "Bar coding is a method for easy identification of products or units, using a specific pattern comprising spaces and lines (bars) of varying width. The bar code represents alpha or alphanumeric data in machine readable form. Bar coding makes replication and forgery harder, and is easy to validate. JK Labels provides bar coded labels for a variety of industries."
+        },
+        {
+          "key": "holograms",
+          "desc": "Holograms have unique optical properties that make them almost impossible to replicate. They can be easily authenticated by customers and users. Our holograms not only will secure your products from counterfeiting and diversion, but they also look stylish, and complement your existing packaging."
+        },
+        {
+          "key": "halfTone",
+          "desc": "This is a process in which fine dots are used to create a variation in which the colour seems to fade from the base colour to a lighter-shaded version of a base color."
+        },
+        {
+          "key": "screenPrinting",
+          "desc": "This process is usually done to add texture to a label. It gives a very elegant feel to a label. We are one of few label printers in India who are capable of screen printing on labels."
+        },
+        {
+          "key": "securityInk",
+          "desc": "We provide our customers with a choice of more than 20 security/specialty inks in different colours and print processes and guide them which ink they should use depending on the level of security, brand protection, and attractiveness they are looking for. Few of the popular security/specialty inks are thermo chromic inks, metallic inks, optically variable inks and photo chromatic inks etc."
+        }
+      ]
+    }
+  ]
+}

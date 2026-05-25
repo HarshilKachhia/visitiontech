@@ -1,0 +1,92 @@
+{
+  "page": "Hologram & Security Labels",
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "sections": [
+        {
+          "title": "Security Hologram Labels",
+          "content": "Security hologram labels provide high-level brand protection and authentication for products across various industries. These labels utilize unique optical properties that are nearly impossible to replicate, making them a premium anti-counterfeiting solution. Designed for both a stylish appearance and robust security, our holograms can be customized with specific logos, patterns, and security features to ensure product integrity. They are available in custom shapes and sizes and can be seamlessly integrated with other specialized label types like thermal or transparent labels."
+        }
+      ],
+      "features": [
+        "Custom security holograms for instant brand authentication.",
+        "Tamper-evident and write-protected face stocks.",
+        "Choice of materials: Chromo paper, Mirror Coated, PET, PVC, and Polyethylene.",
+        "Advanced printing: Half-tone/gradient effects and high-definition serial numbering.",
+        "Compatible with hot/cold foil stamping and embossing for premium feel.",
+        "Strong adhesive properties to prevent unauthorized removal."
+      ],
+      "clients": [
+        "Pharmaceutical Companies",
+        "Consumer Electronics Brands",
+        "Government and Legal Documents",
+        "Luxury Goods Manufacturers"
+      ],
+      "trends": [
+        "Integration of QR codes for instant digital authentication via smartphones.",
+        "Nano-optical features for multi-layered security levels.",
+        "Eco-friendly holographic films made from sustainable materials.",
+        "Combination of holograms with micro-text and UV-visible inks."
+      ]
+    },
+    {
+      "tabName": "Label Options",
+      "labelMaterials": {
+        "paperTypes": [
+          "Chromo Paper",
+          "Mirror Coated",
+          "Security Paper (Watermarked)",
+          "Tamper-proof paper"
+        ],
+        "filmTypes": [
+          "PET (Polyester)",
+          "PVC",
+          "Polyethylene",
+          "Holographic Film"
+        ]
+      },
+      "labelFinishes": [
+        "Glossy",
+        "Matte",
+        "Metallic sheen",
+        "UV Coated"
+      ],
+      "adhesives": [
+        "Permanent",
+        "Tamper-evident (leaves pattern)",
+        "Write-protected"
+      ],
+      "formats": [
+        "Roll Form",
+        "Sheet Form",
+        "Individually Cut"
+      ]
+    },
+    {
+      "tabName": "Printing Options",
+      "printingTypes": [
+        "Holographic Embossing",
+        "UV Visible Printing",
+        "Serial Numbering",
+        "Micro-text Printing",
+        "Barcoding",
+        "Hot/Cold Foil"
+      ],
+      "printingDescriptions": [
+        {
+          "key": "hologramEmbossing",
+          "desc": "A specialized process that creates three-dimensional effects on the label surface, making it extremely difficult to counterfeit."
+        },
+        {
+          "key": "microText",
+          "desc": "Printing tiny text that is invisible to the naked eye but can be verified under magnification as a second layer of security."
+        },
+        {
+          "key": "tamperEvidence",
+          "desc": "A feature where the label fragments or leaves a 'VOID' message on the surface if any attempt is made to peel it off."
+        }
+      ]
+    }
+  ]
+}

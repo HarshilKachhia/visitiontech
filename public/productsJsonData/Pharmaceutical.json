@@ -1,0 +1,140 @@
+{
+  "page": "Pharmaceutical Label Printing in India",
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "sections": [
+        {
+          "title": "Latest Labeling Solutions for Pharmaceutical Industry",
+          "content": "Pharmaceutical products require careful handling and strict manufacturing processes. Every part of the packaging must be properly planned and monitored so that end users receive maximum product value and reliability. JK Labels provides specialized pharmaceutical labels with advanced infrastructure and facilities. Our labels include security labels, holograms, specialty inks, and other protective features that help maintain product authenticity and reduce counterfeiting risks."
+        },
+        {
+          "title": "Industry Experience",
+          "content": "With extensive experience in pharmaceutical label manufacturing in India, we produce labels that meet strict industry standards. Our labels are durable, accurate, and compliant with regulations. We follow hygienic and clean manufacturing processes to maintain product safety and brand trust. We also export pharmaceutical labels to multiple countries."
+        },
+        {
+          "title": "Label Materials and Durability",
+          "content": "We provide the correct combination of label materials and adhesives for product branding and durability. Our pharmaceutical labels are designed to withstand freezing conditions and various storage environments."
+        }
+      ],
+      "features": [
+        "Low migration labels",
+        "Braille printing on labels",
+        "Security solutions for labels",
+        "Zero error printing with camera inspection system",
+        "No color variation with automatic color sensing",
+        "Customized label innovations",
+        "German standard labeling plant with ISO certifications",
+        "Dust-free core labels with automatic cutting",
+        "FDA approved raw materials"
+      ],
+      "clients": [
+        "Cipla Ltd.",
+        "Pfizer Ltd.",
+        "GlaxoSmithKline Pharma",
+        "Piramal Healthcare",
+        "Lupin Ltd.",
+        "Wockhardt",
+        "Novartis"
+      ],
+      "trends": [
+        "High security labels using specialty inks and holograms",
+        "Filmic self adhesive labels for durability",
+        "Varnished printed labels in roll form",
+        "Laminated self adhesive labels for premium finish"
+      ]
+    },
+    {
+      "tabName": "Label Options",
+      "labelMaterials": {
+        "paperTypes": [
+          "Paper",
+          "Chromos",
+          "Map Litho",
+          "Mirror Coated",
+          "Coloured Papers",
+          "Thermal Transfer"
+        ],
+        "filmTypes": [
+          "Films (Opaque or Transparent)",
+          "Polypropylene",
+          "Polyethylene",
+          "Polyester (PET)",
+          "PVC",
+          "Metallized Foils"
+        ]
+      },
+      "labelFinishes": [
+        "Matt",
+        "Semi Glossy",
+        "Glossy"
+      ],
+      "adhesives": [
+        "Hot Melt",
+        "Water Based"
+      ],
+      "formats": [
+        "Sheet",
+        "Roll",
+        "Continuous Stationery"
+      ]
+    },
+    {
+      "tabName": "Printing Options",
+      "printingTypes": [
+        "Lamination",
+        "Half Tone Effect / Gradient Effect",
+        "Bar Coding",
+        "Holograms",
+        "Hot / Cold Foil",
+        "Embossing",
+        "Varnishing",
+        "Serial Numbering",
+        "Screen Printing",
+        "Security / Specialty Ink"
+      ],
+      "printingDescriptions": [
+         {
+          "key": "lamination",
+          "desc": "Lamination is a process where a plastic film is applied on the label surface to protect it and make it moisture resistant and durable. It also improves the visual appearance of the label."
+        },
+        {
+          "key": "varnishing",
+          "desc": "Varnishing is the process of applying a clear coating on the label surface for protection and a glossy finish. It protects labels from moisture, chemicals, and abrasion."
+        },
+        {
+          "key": "serialNumbering",
+          "desc": "Serial numbering is used for unique identification in industries such as retail and logistics. It helps in tracking spare parts and individual products."
+        },
+        {
+          "key": "hotColdFoil",
+          "desc": "Hot or cold foil printing transfers metallic foil onto the label surface to create a premium metallic finish and attractive appearance."
+        },
+        {
+          "key": "embossing",
+          "desc": "Embossing creates a raised image or design on the label surface to give a premium look and prevent counterfeiting."
+        },
+        {
+          "key": "barCoding",
+          "desc": "Bar coding helps in easy identification of products and units using machine readable codes. It improves tracking and reduces errors."
+        },
+        {
+          "key": "holograms",
+          "desc": "Holograms provide optical security features that are difficult to replicate and help protect products from counterfeiting."
+        },
+        {
+          "key": "halfTone",
+          "desc": "Half tone or gradient effect creates color variations where colors gradually fade from dark to light shade."
+        },
+        {
+          "key": "screenPrinting",
+          "desc": "Screen printing adds texture and thickness to labels and gives a premium finish."
+        },
+        {
+          "key": "securityInk",
+          "desc": "Security or specialty inks include thermo chromic inks, metallic inks, and optical inks used for brand protection and security printing."
+        }
+      ]
+    }
+  ]
+}

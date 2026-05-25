@@ -1,0 +1,90 @@
+{
+  "page": "Sandwich & Piggyback Labels",
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "sections": [
+        {
+          "title": "Sandwich (Piggyback) Labels",
+          "content": "Our sandwich (or piggyback) labels are a versatile multi-layer labeling system where one self-adhesive label is layered on top of another. This design allows the top label to be peeled off and reapplied elsewhere—such as on a patient record, a return shipment, or a promotional coupon—while the base layer remains permanently attached to the original product or document. This functional solution is highly effective for healthcare, logistics, and retail environments where data needs to be transferred or tracked across different points of a process. We offer total customization in terms of size, shape, and adhesive strength for each of the layers."
+        }
+      ],
+      "features": [
+        "Unique two-layer self-adhesive construction.",
+        "Top layer easily peels away and reapplies to other surfaces.",
+        "Bottom layer remains as a permanent record on the product.",
+        "Customizable adhesive strengths for each layer.",
+        "Ideal for medical laboratories and logistics return systems.",
+        "Wide range of material choices including paper and synthetic films."
+      ],
+      "clients": [
+        "Medical Laboratories & Clinics",
+        "E-commerce Return Logistics",
+        "Direct Mail Marketing & Coupons",
+        "Government Tracking & Filing"
+      ],
+      "trends": [
+        "Use in clinical trials for matching blinded patient samples.",
+        "Integration in retail environments for 'peel-and-win' gamification.",
+        "Dual-purpose barcode labels for inventory to shipping transfers.",
+        "Rising demand in luxury packaging for warranty registration."
+      ]
+    },
+    {
+      "tabName": "Label Options",
+      "labelMaterials": {
+        "paperTypes": [
+          "Chromo Paper",
+          "Cast-coated paper",
+          "Matte Offset paper",
+          "High-gloss paper"
+        ],
+        "filmTypes": [
+          "Polypropylene (BOPP)",
+          "Polyester (PET)",
+          "Polyethylene (PE)",
+          "PVC"
+        ]
+      },
+      "labelFinishes": [
+        "Varnished",
+        "Laminated",
+        "Matte",
+        "Gloss"
+      ],
+      "adhesives": [
+        "Double-Permanent Acrylic",
+        "Permanent Base with Removable Top",
+        "Extra-Tack Re-applicator Adhesive"
+      ],
+      "formats": [
+        "Roll Form",
+        "Fan-fold Form",
+        "Sheet Form"
+      ]
+    },
+    {
+      "tabName": "Printing Options",
+      "printingTypes": [
+        "Multi-Color Flexo Printing",
+        "Serial Numbering on Both Layers",
+        "Barcode Cross-Linking",
+        "High-definition Screen Printing"
+      ],
+      "printingDescriptions": [
+        {
+          "key": "barcoding",
+          "desc": "Ensures that the same tracking number appeared on both the base and peel-away layers for zero-error data transfer."
+        },
+        {
+          "key": "peelEdge",
+          "desc": "A specific die-cutting technique applied to the top layer to make it easy to start the peeling process with one finger."
+        },
+        {
+          "key": "promotional",
+          "desc": "Perfect for hiding a security code or coupon under the top layer for consumer engagement."
+        }
+      ]
+    }
+  ]
+}

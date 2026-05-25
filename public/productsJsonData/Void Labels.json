@@ -1,0 +1,88 @@
+{
+  "page": "Void & Tamper Evident Labels",
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "sections": [
+        {
+          "title": "Void Labels (Tamper Evident)",
+          "content": "Our void labels are a high-security labeling solution designed to provide immediate and undeniable evidence of tampering or unauthorized access. Constructed from specialized polyester face stocks and aggressive adhesive systems, these labels are engineered to reveal a hidden security message—typically the word 'VOID' or a checkered pattern—if any attempt is made to peel them off. Once the message is revealed, the label is destroyed and cannot be realigned or reapplied, alerting both the manufacturer and the consumer to a possible security breach. Ideal for valuable consumer electronics, sealed warranty components, and high-security documents."
+        }
+      ],
+      "features": [
+        "Instant tamper-evidence through a hidden 'VOID' message.",
+        "Impossible to reapply once tampered with.",
+        "Highly durable polyester face stocks for industrial life cycles.",
+        "Fragile face stock options that fragment upon peeling attempts.",
+        "Customizable security messages and patterns available.",
+        "Resistance to heat, chemicals, and moisture to prevent circumvention."
+      ],
+      "clients": [
+        "Electronics & Hardware Manufacturers",
+        "Asset Management & IT Security",
+        "Pharmaceutical Security",
+        "Document & Archive Security"
+      ],
+      "trends": [
+        "Customizing the hidden 'VOID' message with company logos for better traceability.",
+        "Double-VOID labels which leave a mark on both the product and the label's back.",
+        "Integration of QR codes and serial numbering for unique tamper-tracing.",
+        "Increased use in retail and luxury packaging for sealing high-value items."
+      ]
+    },
+    {
+      "tabName": "Label Options",
+      "labelMaterials": {
+        "paperTypes": [
+          "Not applicable (Films only)"
+        ],
+        "filmTypes": [
+          "Security Polyester (PET)",
+          "Tamper-evident Vinyl",
+          "Ultra-destructible Polyethylene",
+          "VOID Polypropylene"
+        ]
+      },
+      "labelFinishes": [
+        "Silver Metallic",
+        "Matte White",
+        "Gloss White",
+        "UV Coating"
+      ],
+      "adhesives": [
+        "Tamper-evident Permanent Acrylic",
+        "Non-residue VOID (message appears only on label)",
+        "Partial-residue VOID (message appears on both surfaces)"
+      ],
+      "formats": [
+        "Roll Form",
+        "Individually Cut",
+        "Sheet Form"
+      ]
+    },
+    {
+      "tabName": "Printing Options",
+      "printingTypes": [
+        "Serial Numbering",
+        "Barcoding",
+        "UV Ink Printing",
+        "Holographic Hot Foil",
+        "High-definition Screen Printing"
+      ],
+      "printingDescriptions": [
+        {
+          "key": "tamperVOID",
+          "desc": "A specific security feature where the word 'VOID' remains permanently on the surface of the item even if the label is removed using solvents or high heat."
+        },
+        {
+          "key": "serialTracking",
+          "desc": "Each label is uniquely numbered, making it easy for companies to track individual units and preventing the substitution of an entire label."
+        },
+        {
+          "key": "nonResidue",
+          "desc": "A high-end version where the VOID message only appears inside the label material itself and does not leave a messy adhesive residue on the product's finish—ideal for premium consumer goods."
+        }
+      ]
+    }
+  ]
+}
