@@ -166,30 +166,54 @@ const ProductPage = () => {
 
             {/* Contact Enquiry Container */}
             <div className="space-y-1 italic">
-              <div className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md border-b border-gray-200 hover:bg-gray-100 transition cursor-pointer">
+              <Link
+                to="/contact"
+                className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md border-b border-gray-200 hover:bg-gray-100 transition cursor-pointer"
+              >
                 <div className="w-10 h-10 flex items-center justify-center bg-white rounded shadow-sm">
                   <img src="/imgs/enquiry-icon.png" alt="" className="w-6 h-6" onError={(e) => e.target.src = 'https://cdn-icons-png.flaticon.com/512/1067/1067555.png'} />
                 </div>
                 <div>
                   <h5 className="text-gray-800 font-bold text-sm">Send Enquiry</h5>
                 </div>
-              </div>
-              <div className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md border-b border-gray-200 hover:bg-gray-100 transition cursor-pointer">
-                <div className="w-10 h-10 flex items-center justify-center bg-white rounded shadow-sm text-red-600">
+              </Link>
+              <a
+                href="tel:+919925209252"
+                className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md border-b border-gray-200 hover:bg-gray-100 transition cursor-pointer"
+              >
+                <div className="w-10 h-10 flex items-center justify-center bg-white rounded shadow-sm text-brandPrimary">
                   <PhoneIcon className="w-6 h-6" />
                 </div>
                 <div>
-                  <h5 className="text-gray-800 font-bold text-sm">022-3511 1951</h5>
+                  <h5 className="text-gray-800 font-bold text-sm">+91 99252 09252</h5>
                 </div>
-              </div>
-              <div className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md hover:bg-gray-100 transition cursor-pointer">
+              </a>
+              <a
+                href="mailto:info@visiontechbarcode.com"
+                className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md border-b border-gray-200 hover:bg-gray-100 transition cursor-pointer"
+              >
                 <div className="w-10 h-10 flex items-center justify-center bg-white rounded shadow-sm text-purple-600">
                   <MailIcon className="w-6 h-6" />
                 </div>
                 <div>
                   <h5 className="text-gray-800 font-bold text-sm">Email Us</h5>
                 </div>
-              </div>
+              </a>
+              <a
+                href={`https://wa.me/919925209252?text=${encodeURIComponent("Hi, I want to get more info about " + productData.page)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md hover:bg-gray-100 transition cursor-pointer"
+              >
+                <div className="w-10 h-10 flex items-center justify-center bg-white rounded shadow-sm text-green-600">
+                  <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.004 2C6.48 2 2 6.48 2 12c0 2.17.7 4.18 1.89 5.83L2.05 22l4.3-1.8c1.6.9 3.47 1.4 5.65 1.4 5.52 0 10-4.48 10-10S17.524 2 12.004 2zm5.72 14.33c-.24.68-1.2 1.25-1.92 1.33-.49.05-1.13.08-3.23-.79-2.69-1.11-4.42-3.85-4.55-4.03-.13-.18-1.07-1.42-1.07-2.71 0-1.29.67-1.93.91-2.19.24-.26.53-.32.71-.32.18 0 .36.01.51.02.16.01.37-.06.58.45.21.52.73 1.79.8 1.93.07.14.11.31.02.49-.09.18-.14.29-.28.45-.14.16-.3.36-.43.48-.15.14-.31.3-.13.61.18.31.8 1.31 1.71 2.12.91.81 1.67 1.06 2.02 1.23.36.17.57.14.78-.1.21-.24.91-1.06 1.15-1.42.24-.36.49-.3.82-.18.33.12 2.1.99 2.46 1.17.36.18.6.27.69.42.08.15.08.87-.16 1.55z" />
+                  </svg>
+                </div>
+                <div>
+                  <h5 className="text-gray-800 font-bold text-sm">WhatsApp Us</h5>
+                </div>
+              </a>
             </div>
           </aside>
 
@@ -374,14 +398,16 @@ const ProductPage = () => {
                     ))}
                   </div>
 
-                  <div className="p-8 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl text-white shadow-xl italic font-bold">
+                  <div className="p-8 bg-gradient-to-br from-brandPrimary to-brandSecondary rounded-2xl text-white shadow-xl italic font-bold">
                     <h3 className="text-2xl font-bold mb-4">Need help with printing options?</h3>
                     <p className="text-blue-100 mb-6 max-w-xl">
                       Our experts are here to guide you through the best printing choices for your specific label requirements.
                     </p>
-                    <button className="px-8 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-gray-100 transition-colors">
-                      Talk to an Expert
-                    </button>
+                    <Link to="/contact">
+                      <button className="px-8 py-3 bg-white text-brandSecondary font-bold rounded-lg hover:bg-gray-100 transition-colors">
+                        Talk to an Expert
+                      </button>
+                    </Link>
                   </div>
                 </div>
               )}
