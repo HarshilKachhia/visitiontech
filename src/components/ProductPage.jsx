@@ -134,7 +134,7 @@ const ProductPage = () => {
             {/* Sidebar Categories */}
             {productStructure.map((cat, idx) => (
               <div key={idx} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm italic">
-                <div className="bg-[#99cc33] px-4 py-2 flex justify-between items-center">
+                <div className="bg-brandPrimary px-4 py-2 flex justify-between items-center">
                   <h3 className="text-white font-bold text-lg">{cat.category}</h3>
                   <div className="bg-white/20 rounded p-1">
                     {cat.category.toLowerCase().includes("industry") ? (
@@ -149,10 +149,10 @@ const ProductPage = () => {
                     <li key={i} className="group transition hover:bg-gray-50 underline decoration-dotted underline-offset-4">
                       <Link
                         to={`/product/${item.slug}`}
-                        className={`flex items-center px-4 py-2.5 text-sm font-bold transition-all ${productSlug?.replace(/%20| /g, "-").toLowerCase() === item.slug.toLowerCase() ? "text-[#99cc33] bg-gray-50" : "text-gray-700 hover:text-[#99cc33]"
+                        className={`flex items-center px-4 py-2.5 text-sm font-bold transition-all ${productSlug?.replace(/%20| /g, "-").toLowerCase() === item.slug.toLowerCase() ? "text-brandPrimary bg-gray-50" : "text-gray-700 hover:text-brandPrimary"
                           }`}
                       >
-                        <div className={`w-5 h-5 rounded-full flex items-center justify-center mr-3 flex-shrink-0 transition-colors ${productSlug?.replace(/%20| /g, "-").toLowerCase() === item.slug.toLowerCase() ? "bg-[#99cc33]" : "bg-gray-500 group-hover:bg-[#99cc33]"
+                        <div className={`w-5 h-5 rounded-full flex items-center justify-center mr-3 flex-shrink-0 transition-colors ${productSlug?.replace(/%20| /g, "-").toLowerCase() === item.slug.toLowerCase() ? "bg-brandPrimary" : "bg-gray-500 group-hover:bg-brandPrimary"
                           }`}>
                           <ChevronRightIcon className="w-3 h-3 text-white" />
                         </div>
@@ -204,7 +204,7 @@ const ProductPage = () => {
                     onClick={() => setActiveTab(tab.tabName)}
                     className={`px-6 py-2 text-sm font-bold border transition-all duration-300 rounded shadow-sm ${activeTab === tab.tabName
                       ? "bg-[#4d4d4d] text-white border-[#4d4d4d]"
-                      : "bg-[#99cc33] text-white border-[#99cc33] hover:brightness-110"
+                      : "bg-brandPrimary text-white border-brandPrimary hover:brightness-110"
                       }`}
                   >
                     {tab.tabName}
@@ -270,7 +270,7 @@ const ProductPage = () => {
                   {/* Product Image Gallery */}
                   <div className="mt-12">
                     <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
-                      <div className="w-1.5 h-8 bg-[#99cc33] rounded-full mr-4"></div>
+                      <div className="w-1.5 h-8 bg-brandPrimary rounded-full mr-4"></div>
                       Product Gallery
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

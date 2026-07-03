@@ -60,14 +60,14 @@ const ProductSection = () => {
           {products.map((product) => (
             <div key={product.id} className="flex flex-col items-start">
               {/* Image and Title in Bordered Box */}
-              <div className="w-full border-2 border-[#1990ce] rounded-lg shadow-md overflow-hidden bg-white">
+              <div className="w-full border-2 border-brandPrimary rounded-lg shadow-md overflow-hidden bg-white">
                 <img
                   src={product.image}
                   alt={product.title}
                   className="w-full object-cover"
                 />
                 <Link to={product.link}>
-                  <div className="bg-blue-500 text-white text-center font-semibold py-2 hover:bg-[#E60094] transition-colors duration-300 cursor-pointer">
+                  <div className="bg-brandPrimary text-white text-center font-semibold py-2 hover:bg-brandSecondary transition-colors duration-300 cursor-pointer">
                     {product.title}
                   </div>
                 </Link>
@@ -79,7 +79,7 @@ const ProductSection = () => {
                 </p>
                 <Link
                   to={product.link}
-                  className="text-blue-500 font-semibold text-sm hover:underline mt-2 block"
+                  className="text-brandPrimary font-semibold text-sm hover:underline mt-2 block"
                 >
                   Read More →
                 </Link>

@@ -34,7 +34,7 @@ const Features = () => {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Our Mission
               </h2>
-              <hr className="w-12 border-t-2 border-blue-600 mb-4" />
+              <hr className="w-12 border-t-2 border-brandPrimary mb-4" />
               <p className="text-gray-600 leading-relaxed">
                 To Design, Develop, And Deploy High-Quality Solutions For Our
                 Clients. It Is Our Commitment To A Sustainable Value Addition To

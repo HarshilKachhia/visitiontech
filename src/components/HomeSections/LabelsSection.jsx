@@ -14,7 +14,7 @@ const LabelsSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             {/* Left Text Content */}
             <div>
-              <h2 className="text-xl font-bold text-blue-500 flex items-center">
+              <h2 className="text-xl font-bold text-brandPrimary flex items-center">
                 <img
                   src="imgs/labels/icon1.jpg"
                   alt="Label Icon"

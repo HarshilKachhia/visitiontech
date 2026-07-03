@@ -93,7 +93,7 @@ const ContactSection = () => {
     <div className="min-h-[65vh] flex items-center justify-center bg-with-100 constactSection">
       <div className="bg-white rounded-lg overflow-hidden w-full flex sm:flex-nowrap flex-wrap gap-4 sm:gap-10 py-3">
         {/* Left Section */}
-        <div className="left section w-[100%] sm:w-[40%] bg-[#116089] text-white p-8">
+        <div className="left section w-[100%] sm:w-[40%] bg-brandSecondary text-white p-8">
           <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
           <div className="space-y-4">
             {/* Contact Names */}
@@ -225,7 +225,7 @@ const ContactSection = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-[#116089] text-white p-2 rounded hover:bg-[#0e4f72] transition disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center justify-center font-semibold"
+              className="w-full bg-brandPrimary text-white p-2 rounded hover:bg-brandPrimaryHover transition disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center justify-center font-semibold"
             >
               {isSubmitting ? (
                 <>

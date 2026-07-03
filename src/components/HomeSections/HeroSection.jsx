@@ -33,7 +33,7 @@ const HeroSection = () => {
             fontFamily: '"Open Sans", sans-serif',
             fontWeight: "bold",
             fontStyle: "normal",
-            background: "linear-gradient(90deg, #1990CE 0%, #A9D7EF 100%)",
+            background: "linear-gradient(90deg, #00AEEF 0%, #E0F4FC 100%)",
             WebkitBackgroundClip: "text", // This makes the gradient work on text
             color: "transparent",
             position: "relative",

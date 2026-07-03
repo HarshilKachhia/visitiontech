@@ -125,7 +125,7 @@ const Navbar = () => {
 
               <li className="space-y-1">
                 <div
-                  className={`flex justify-between items-center py-3 px-4 rounded-lg hover:bg-gray-50 cursor-pointer ${isProductActive ? 'text-[#99cc33] font-bold' : 'text-[#116089]'}`}
+                  className={`flex justify-between items-center py-3 px-4 rounded-lg hover:bg-gray-50 cursor-pointer ${isProductActive ? 'text-brandPrimary font-bold' : 'text-brandSecondary'}`}
                 >
                   <NavLink to="/products" className="flex-1" onClick={toggleSidebar}>Products</NavLink>
                   <div onClick={toggleDropdown} className="px-2 py-1">

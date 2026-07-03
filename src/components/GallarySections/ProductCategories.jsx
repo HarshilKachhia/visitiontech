@@ -136,7 +136,7 @@ const ProductCategories = () => {
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-[50vh] bg-white">
-        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#99cc33]"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-brandPrimary"></div>
       </div>
     );
   }
@@ -147,7 +147,7 @@ const ProductCategories = () => {
         <p className="text-red-500 text-lg font-medium mb-4">Error: {error}</p>
         <button
           onClick={() => window.location.reload()}
-          className="px-6 py-2.5 bg-[#99cc33] text-white rounded-full font-semibold hover:bg-[#88bb22] transition-colors"
+          className="px-6 py-2.5 bg-brandPrimary text-white rounded-full font-semibold hover:bg-brandPrimaryHover transition-colors"
         >
           Try Again
         </button>
@@ -187,7 +187,7 @@ const ProductCategories = () => {
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight">
             Our Gallery
           </h2>
-          <div className="h-1 w-20 bg-[#99cc33] mx-auto mt-4 rounded-full"></div>
+          <div className="h-1 w-20 bg-brandPrimary mx-auto mt-4 rounded-full"></div>
           <p className="text-slate-500 mt-4 text-base md:text-lg">
             Explore our premium range of industrial labels, stickers, and barcode solutions.
           </p>
@@ -199,7 +199,7 @@ const ProductCategories = () => {
             <button
               onClick={() => setActiveFilter("All")}
               className={`px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 whitespace-nowrap ${activeFilter === "All"
-                  ? "bg-[#99cc33] text-white shadow-lg shadow-[#99cc33]/25 scale-105"
+                  ? "bg-brandPrimary text-white shadow-lg shadow-brandPrimary/25 scale-105"
                   : "bg-white text-slate-600 hover:bg-slate-100 hover:text-slate-800 border border-slate-200/80"
                 }`}
             >
@@ -210,7 +210,7 @@ const ProductCategories = () => {
                 key={category}
                 onClick={() => setActiveFilter(category)}
                 className={`px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 whitespace-nowrap ${activeFilter === category
-                    ? "bg-[#99cc33] text-white shadow-lg shadow-[#99cc33]/25 scale-105"
+                    ? "bg-brandPrimary text-white shadow-lg shadow-brandPrimary/25 scale-105"
                     : "bg-white text-slate-600 hover:bg-slate-100 hover:text-slate-800 border border-slate-200/80"
                   }`}
               >
@@ -253,7 +253,7 @@ const ProductCategories = () => {
                   </div>
 
                   <div>
-                    <span className="text-[10px] uppercase font-bold tracking-widest text-[#99cc33] bg-[#99cc33]/15 px-2.5 py-1 rounded-full border border-[#99cc33]/30 backdrop-blur-sm inline-block">
+                    <span className="text-[10px] uppercase font-bold tracking-widest text-brandPrimary bg-brandPrimary/15 px-2.5 py-1 rounded-full border border-brandPrimary/30 backdrop-blur-sm inline-block">
                       {item.category}
                     </span>
                   </div>
