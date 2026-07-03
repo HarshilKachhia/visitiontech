@@ -8,6 +8,7 @@ import Gallery from "./pages/Gallery";
 import ContactUs from "./pages/ContactUs";
 import ProductPage from "./components/ProductPage";
 import { Helmet } from "react-helmet";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const App = () => {
     return (
@@ -31,6 +32,7 @@ const App = () => {
                 </Routes>
             </div>
             <Footer />
+            <WhatsAppButton />
         </Router>
         </>
 
