@@ -100,7 +100,7 @@ const ContactSection = () => {
             <div className="flex items-start space-x-3">
               <span className="text-lg">👤</span>
               <p className="text-sm">
-                Mr. Pramod Dongre (Director) | Mr. Umesh Dongre (Director)
+                Mr. Vishal Bhadresada (Director)
               </p>
             </div>
 
@@ -108,8 +108,8 @@ const ContactSection = () => {
             <div className="flex items-start space-x-3">
               <span className="text-lg">📍</span>
               <p className="text-sm">
-                Sr. No. 35/1, Kolewadi Road, <br />
-                Jambhulwadi, Pune - 411046, Maharashtra, India
+                B-15, Jeevandeep Complex, Opp. J.K Tower, <br />
+                Ring Road, Surat - 395002, Gujarat, India
               </p>
             </div>
 
@@ -118,10 +118,10 @@ const ContactSection = () => {
               <span className="text-lg">📧</span>
               <p className="text-sm">
                 <a
-                  href="mailto:umesh.dongre@shreemultigroup.com"
+                  href="mailto:info@visiontechbarcode.com"
                   className="text-blue-200 hover:underline"
                 >
-                  umesh.dongre@shreemultigroup.com
+                  info@visiontechbarcode.com
                 </a>
               </p>
             </div>
@@ -130,7 +130,7 @@ const ContactSection = () => {
             <div className="flex items-start space-x-3">
               <span className="text-lg">📞</span>
               <p className="text-sm">
-                +91 9890273970 / 9822468634
+                +91 99252 09252 / 79429 63928
               </p>
             </div>
           </div>

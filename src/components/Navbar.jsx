@@ -166,7 +166,7 @@ const Navbar = () => {
             </ul>
 
             <div className="p-6 bg-gray-50 border-t">
-              <p className="text-xs text-gray-400 text-center uppercase tracking-widest">JK Labels - Premium Solutions</p>
+              <p className="text-xs text-gray-400 text-center uppercase tracking-widest">Vision Tech - Premium Solutions</p>
             </div>
           </div>
         </div>

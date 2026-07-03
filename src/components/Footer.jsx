@@ -1,28 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const [productStructure, setProductStructure] = useState([]);
-
-  useEffect(() => {
-    const fetchStructure = async () => {
-      try {
-        const response = await fetch("/product-structure.json");
-        const data = await response.json();
-        setProductStructure(data);
-      } catch (error) {
-        console.error("Error fetching product structure for footer:", error);
-      }
-    };
-    fetchStructure();
-  }, []);
-
-  // Helpers to find the categories
-  const industryProducts = productStructure.find(cat => cat.slug === "industry-wise-labels")?.items || [];
-  const specialtyProducts = productStructure.find(cat => cat.slug === "specialty-labels")?.items || [];
   return (
     <footer className="footer">
       <div className="footer-container">
+        {/* About Company Section */}
+        <div className="footer-section">
+          <h3 className="footer-title">Vision Tech</h3>
+          <p style={{ color: "#ccc", fontSize: "14px", lineHeight: "1.6", marginBottom: "15px" }}>
+            Leading manufacturer, supplier and exporter of premium quality industrial labels, barcode stickers, scanners, and custom printing solutions in India.
+          </p>
+        </div>
+
         {/* Quick Links Section */}
         <div className="footer-section">
           <h3 className="footer-title">Quick Links</h3>
@@ -34,7 +24,7 @@ const Footer = () => {
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <Link to="/">Products</Link>
+              <Link to="/products">Products</Link>
             </li>
             <li>
               <Link to="/gallery">Gallery</Link>
@@ -45,66 +35,57 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Industry Wise Labels Section */}
+        {/* Our Products Section */}
         <div className="footer-section">
-          <h3 className="footer-title">Industry Wise Labels</h3>
+          <h3 className="footer-title">Our Products</h3>
           <ul className="footer-list">
-            {industryProducts.map((product) => (
-              <li key={product.slug}>
-                <Link to={`/product/${product.slug}`}>{product.name}</Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Specialty Labels Section */}
-        <div className="footer-section">
-          <h3 className="footer-title">Specialty Labels</h3>
-          <ul className="footer-list">
-            {specialtyProducts.map((product) => (
-              <li key={product.slug}>
-                <Link to={`/product/${product.slug}`}>{product.name}</Link>
-              </li>
-            ))}
+            <li>
+              <Link to="/products">Industry Wise Labels</Link>
+            </li>
+            <li>
+              <Link to="/products">Specialty Labels</Link>
+            </li>
           </ul>
         </div>
 
         {/* Contact Us Section */}
         <div className="footer-section">
           <h3 className="footer-title">Contact Us</h3>
-          <p>
-            Sr. No. 35/1, Kolewadi Road, Jambhulwadi, Pune - 411046,
-            Maharashtra, India
+          <p style={{ marginBottom: "8px", lineHeight: "1.4" }}>
+            <strong>Vision Tech Barcode Solution</strong><br />
+            B-15, Jeevandeep Complex, Opp. J.K Tower, Ring Road, Surat - 395002, Gujarat, India.
           </p>
-          <p>
+          <p style={{ marginBottom: "6px" }}>
             Email:{" "}
-            <a href="mailto:umesh.dongre@shreemultigroup.com">
-              umesh.dongre@shreemultigroup.com
+            <a href="mailto:info@visiontechbarcode.com" style={{ color: "#00AEEF" }}>
+              info@visiontechbarcode.com
             </a>
           </p>
-          <p>
-            Email:{" "}
-            <a href="mailto:shreemultigroups@gmail.com">
-              shreemultigroups@gmail.com
+          <p style={{ marginBottom: "6px" }}>
+            Phone: <a href="tel:+919925209252" style={{ color: "#00AEEF" }}>+91 99252 09252</a>
+          </p>
+          <div style={{ marginTop: "12px" }}>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Vision+Tech+Barcode+Solution+Jeevandeep+Complex+Surat"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                backgroundColor: "#00AEEF",
+                color: "#fff",
+                padding: "6px 12px",
+                borderRadius: "4px",
+                fontSize: "13px",
+                fontWeight: "bold",
+                textDecoration: "none",
+                transition: "background-color 0.3s"
+              }}
+              onMouseOver={(e) => e.target.style.backgroundColor = "#008ec4"}
+              onMouseOut={(e) => e.target.style.backgroundColor = "#00AEEF"}
+            >
+              📍 View on Google Maps
             </a>
-          </p>
-          <p>
-            Phone: <a href="tel:+919822468634">+91 9822468634</a>
-          </p>
-        </div>
-
-        {/* Location Section */}
-        <div className="footer-section">
-          <h3 className="footer-title">Location</h3>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7440.579526805542!2d72.829602!3d21.1806451!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1740814778927!5m2!1sen!2sin"
-            width="200"
-            height="150"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+          </div>
         </div>
       </div>
 
