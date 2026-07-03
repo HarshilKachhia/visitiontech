@@ -49,7 +49,7 @@ const ContactUsForm = () => {
           </div>
   
           {/* Right Section */}
-          <div className=" right-section w-[100%] sm:w-[70%] p-8">
+          <div className=" right-section w-[100%] sm:w-[70%] p-8 hidden">
             <form>
               <div className="flex space-x-4 mb-4">
                 <input

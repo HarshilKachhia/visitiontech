@@ -44,22 +44,6 @@ const ServicesSection = () => {
               </div>
             ))}
           </div>
-  
-          {/* Buttons */}
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a
-              href="#"
-              className="bg-gray-800 text-white py-3 px-6 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-700 transition"
-            >
-              <span>📄</span> Download Brochure
-            </a>
-            <a
-              href="#"
-              className="bg-black text-white py-3 px-6 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-900 transition"
-            >
-              <span>📞</span> Get In Touch Now
-            </a>
-          </div>
         </div>
       </section>
     );
