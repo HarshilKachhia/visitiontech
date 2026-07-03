@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-28 flex justify-between items-center py-4">
         {/* Logo Section */}
         <div className="flex items-center space-x-2 w-[22%]">
-          <img src="/imgs/logo.png" alt="Logo" className="h-auto w-full max-w-[180px]" />
+          <img src="/vision text logo.png" alt="Logo" className="h-auto w-full max-w-[180px]" />
         </div>
 
         {/* Desktop Navigation Links */}
@@ -111,7 +111,7 @@ const Navbar = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-between items-center p-5 border-b">
-              <img src="/imgs/logo.png" alt="Logo" className="h-10 w-auto" />
+              <img src="/vision full logo.png" alt="Logo" className="h-10 w-auto" />
               <button onClick={toggleSidebar} className="text-gray-500 hover:text-red-500 transition-colors">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
