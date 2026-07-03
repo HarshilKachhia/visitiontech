@@ -7,6 +7,7 @@ const ProductPage = () => {
   const [activeTab, setActiveTab] = useState("Overview");
   const [loading, setLoading] = useState(true);
   const [productStructure, setProductStructure] = useState([]);
+  const [bannerImage, setBannerImage] = useState("/imgs/products/banner.jpg");
 
   // Helper to map slug to JSON filename
   const slugToFilename = (slug) => {
@@ -88,15 +89,17 @@ const ProductPage = () => {
   return (
     <div className="bg-white font-sans text-gray-900 overflow-x-hidden">
       {/* Banner Section */}
-      <div className="relative w-full h-64 md:h-80 bg-gradient-to-r from-blue-900 to-indigo-800 overflow-hidden">
-        <div className="absolute inset-0 bg-black/40"></div>
-        {/* Placeholder for dynamic banner if needed, using custom gradient for now */}
+      <div
+        className="relative w-full h-64 md:h-80 bg-cover bg-center overflow-hidden"
+        style={{ backgroundImage: `url('${bannerImage}')` }}
+      >
+        <div className="absolute inset-0 bg-black/55"></div>
         <div className="absolute inset-0 flex items-center justify-center text-center px-4">
           <div className="max-w-4xl">
             <h1 className="text-white text-3xl md:text-5xl font-extrabold tracking-tight drop-shadow-lg">
               {productData.page}
             </h1>
-            <p className="mt-4 text-white/80 text-lg md:text-xl font-medium max-w-2xl mx-auto">
+            <p className="mt-4 text-white/90 text-lg md:text-xl font-medium max-w-2xl mx-auto">
               Premium Label Solutions for Your Business Needs
             </p>
           </div>
@@ -280,11 +283,6 @@ const ProductPage = () => {
                       ))}
                     </div>
                   </div>
-
-                  <button className="mt-10 px-8 py-3 bg-gradient-to-r from-orange-600 to-orange-500 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all flex items-center">
-                    Get Free Consultancy
-                    <ChevronRightIcon className="w-5 h-5 ml-2" />
-                  </button>
                 </div>
               )}
 
@@ -356,10 +354,6 @@ const ProductPage = () => {
                       </div>
                     )}
                   </div>
-
-                  <button className="px-8 py-3 bg-gradient-to-r from-orange-600 to-orange-500 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all mt-6">
-                    Get Free Consultancy
-                  </button>
                 </div>
               )}
 

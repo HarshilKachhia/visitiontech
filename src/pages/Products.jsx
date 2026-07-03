@@ -67,14 +67,17 @@ const Products = () => {
             `}</style>
 
             {/* Banner Section */}
-            <div className="relative w-full h-64 md:h-80 bg-gradient-to-r from-blue-900 to-indigo-800 overflow-hidden mb-12">
-                <div className="absolute inset-0 bg-black/40"></div>
+            <div 
+                className="relative w-full h-64 md:h-80 bg-cover bg-center overflow-hidden mb-12"
+                style={{ backgroundImage: "url('/imgs/products/banner.jpg')" }}
+            >
+                <div className="absolute inset-0 bg-black/55"></div>
                 <div className="absolute inset-0 flex items-center justify-center text-center px-4">
                     <div className="max-w-4xl">
                         <h1 className="text-white text-3xl md:text-5xl font-extrabold tracking-tight drop-shadow-lg">
                             Our Products
                         </h1>
-                        <p className="mt-4 text-white/80 text-lg md:text-xl font-medium max-w-2xl mx-auto">
+                        <p className="mt-4 text-white/90 text-lg md:text-xl font-medium max-w-2xl mx-auto">
                             Premium Label Solutions for Your Business Needs
                         </p>
                     </div>
