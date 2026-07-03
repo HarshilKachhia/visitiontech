@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AboutSection = () => {
     return (
         <div className="flex flex-col lg:flex-row items-center bg-gray-100 p-6">
@@ -24,9 +26,11 @@ const AboutSection = () => {
                     needs of the clients. All the processes of manufacturing execute in a safe,
                     hygienic, and clean environment that ensures superior adhesion property.
                 </p>
-                <button className="mt-4 bg-brandPrimary hover:bg-brandPrimaryHover text-white font-semibold py-2 px-4 rounded shadow">
-                    Read More
-                </button>
+                <Link to="/about">
+                    <button className="mt-4 bg-brandPrimary hover:bg-brandPrimaryHover text-white font-semibold py-2 px-4 rounded shadow">
+                        Read More
+                    </button>
+                </Link>
             </div>
         </div>
     );
