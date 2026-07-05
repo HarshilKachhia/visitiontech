@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { CONTACT_INFO } from "../services/contactService";
 
 const Footer = () => {
   return (
@@ -52,21 +53,21 @@ const Footer = () => {
         <div className="footer-section">
           <h3 className="footer-title">Contact Us</h3>
           <p style={{ marginBottom: "8px", lineHeight: "1.4" }}>
-            <strong>Vision Tech Barcode Solution</strong><br />
-            B-15, Jeevandeep Complex, Opp. J.K Tower, Ring Road, Surat - 395002, Gujarat, India.
+            <strong>{CONTACT_INFO.companyName}</strong><br />
+            {CONTACT_INFO.address.fullAddress}
           </p>
           <p style={{ marginBottom: "6px" }}>
             Email:{" "}
-            <a href="mailto:info@visiontechbarcode.com" style={{ color: "#00AEEF" }}>
-              info@visiontechbarcode.com
+            <a href={`mailto:${CONTACT_INFO.emails.primary}`} style={{ color: "#00AEEF" }}>
+              {CONTACT_INFO.emails.primary}
             </a>
           </p>
           <p style={{ marginBottom: "6px" }}>
-            Phone: <a href="tel:+919925209252" style={{ color: "#00AEEF" }}>+91 99252 09252</a>
+            Phone: <a href={`tel:${CONTACT_INFO.phones.primaryRaw}`} style={{ color: "#00AEEF" }}>{CONTACT_INFO.phones.primary}</a>
           </p>
           <div style={{ marginTop: "12px" }}>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Vision+Tech+Barcode+Solution+Jeevandeep+Complex+Surat"
+              href={CONTACT_INFO.maps.searchUrl}
               target="_blank"
               rel="noopener noreferrer"
               style={{

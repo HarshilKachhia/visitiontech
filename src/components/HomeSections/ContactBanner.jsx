@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { CONTACT_INFO } from "../../services/contactService";
 
 // Google Apps Script Web App URL. Replace with your deployed Web App URL.
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzqoKNLfGtwAuONrK2e3NZnFQkbFANuoPYT80B7NPhabeeKDySROyJwPbKigGQP0K4/exec";
@@ -100,7 +101,7 @@ const ContactSection = () => {
             <div className="flex items-start space-x-3">
               <span className="text-lg">👤</span>
               <p className="text-sm">
-                Mr. Vishal Bhadresada (Director)
+                {CONTACT_INFO.directorName} ({CONTACT_INFO.directorTitle})
               </p>
             </div>
 
@@ -108,8 +109,8 @@ const ContactSection = () => {
             <div className="flex items-start space-x-3">
               <span className="text-lg">📍</span>
               <p className="text-sm">
-                B-15, Jeevandeep Complex, Opp. J.K Tower, <br />
-                Ring Road, Surat - 395002, Gujarat, India
+                {CONTACT_INFO.address.line1}, {CONTACT_INFO.address.line2}, <br />
+                {CONTACT_INFO.address.city} - {CONTACT_INFO.address.zipCode}, {CONTACT_INFO.address.state}, {CONTACT_INFO.address.country}
               </p>
             </div>
 
@@ -118,10 +119,10 @@ const ContactSection = () => {
               <span className="text-lg">📧</span>
               <p className="text-sm">
                 <a
-                  href="mailto:info@visiontechbarcode.com"
+                  href={`mailto:${CONTACT_INFO.emails.primary}`}
                   className="text-blue-200 hover:underline"
                 >
-                  info@visiontechbarcode.com
+                  {CONTACT_INFO.emails.primary}
                 </a>
               </p>
             </div>
@@ -130,7 +131,7 @@ const ContactSection = () => {
             <div className="flex items-start space-x-3">
               <span className="text-lg">📞</span>
               <p className="text-sm">
-                +91 99252 09252 / 79429 63928
+                <a href={`tel:${CONTACT_INFO.phones.primaryRaw}`} className="hover:underline">{CONTACT_INFO.phones.primary}</a> / <a href={`tel:${CONTACT_INFO.phones.secondaryRaw}`} className="hover:underline">{CONTACT_INFO.phones.secondary}</a>
               </p>
             </div>
           </div>

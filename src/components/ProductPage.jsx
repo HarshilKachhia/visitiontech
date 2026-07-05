@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
+import { CONTACT_INFO } from "../services/contactService";
 
 const ProductPage = () => {
   const { productSlug } = useParams();
@@ -178,18 +179,18 @@ const ProductPage = () => {
                 </div>
               </Link>
               <a
-                href="tel:+919925209252"
+                href={`tel:${CONTACT_INFO.phones.primaryRaw}`}
                 className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md border-b border-gray-200 hover:bg-gray-100 transition cursor-pointer"
               >
                 <div className="w-10 h-10 flex items-center justify-center bg-white rounded shadow-sm text-brandPrimary">
                   <PhoneIcon className="w-6 h-6" />
                 </div>
                 <div>
-                  <h5 className="text-gray-800 font-bold text-sm">+91 99252 09252</h5>
+                  <h5 className="text-gray-800 font-bold text-sm">{CONTACT_INFO.phones.primary}</h5>
                 </div>
               </a>
               <a
-                href="mailto:info@visiontechbarcode.com"
+                href={`mailto:${CONTACT_INFO.emails.primary}`}
                 className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md border-b border-gray-200 hover:bg-gray-100 transition cursor-pointer"
               >
                 <div className="w-10 h-10 flex items-center justify-center bg-white rounded shadow-sm text-purple-600">
@@ -200,7 +201,7 @@ const ProductPage = () => {
                 </div>
               </a>
               <a
-                href={`https://wa.me/919925209252?text=${encodeURIComponent("Hi, I want to get more info about " + productData.page)}`}
+                href={CONTACT_INFO.whatsapp.getLink(productData.page)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4 p-4 bg-[#f2f2f2] rounded-md hover:bg-gray-100 transition cursor-pointer"

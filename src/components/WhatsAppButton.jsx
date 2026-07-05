@@ -1,10 +1,8 @@
 import React from "react";
+import { CONTACT_INFO } from "../services/contactService";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "919925209252";
-  const message = "Hi, I want to get more info about Visiontech Barcode solution company.";
-  const encodedMessage = encodeURIComponent(message);
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  const whatsappUrl = CONTACT_INFO.whatsapp.getLink();
 
   return (
     <>
