@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-28 flex justify-between items-center py-4">
         {/* Logo Section */}
         <div className="flex items-center space-x-2 w-[22%]">
-          <img src="/vision text logo.png" alt="Logo" className="h-auto w-full max-w-[180px]" />
+          <img src="/vision full logo.png" alt="Logo" className="h-auto w-full max-w-[180px]" />
         </div>
 
         {/* Desktop Navigation Links */}
