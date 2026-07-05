@@ -7,7 +7,7 @@ const ProductPage = () => {
   const [activeTab, setActiveTab] = useState("Overview");
   const [loading, setLoading] = useState(true);
   const [productStructure, setProductStructure] = useState([]);
-  const [bannerImage, setBannerImage] = useState("/imgs/products/banner.jpg");
+  const bannerImage = "/imgs/products/banner.jpg";
 
   // Helper to map slug to JSON filename
   const slugToFilename = (slug) => {

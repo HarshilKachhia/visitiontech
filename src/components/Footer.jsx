@@ -90,7 +90,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="footer-bottom">
+      {/* <div className="footer-bottom">
         <p>
           All Rights Reserved. Vision Tech Barcode Solution. Designed
           By:{" "}
@@ -99,7 +99,7 @@ const Footer = () => {
           </a>
           .
         </p>
-      </div>
+      </div> */}
     </footer>
   );
 };

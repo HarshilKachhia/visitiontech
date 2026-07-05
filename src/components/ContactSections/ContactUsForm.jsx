@@ -48,7 +48,7 @@ const ContactUsForm = () => {
     if (!formData.message.trim()) {
       newErrors.message = "Message is required";
     }
-    if (formData.phone && !/^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/.test(formData.phone)) {
+    if (formData.phone && !/^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s./0-9]*$/.test(formData.phone)) {
       newErrors.phone = "Please enter a valid phone number";
     }
 
